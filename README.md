@@ -1,7 +1,7 @@
 
 ## Authors
 
-- [@Dushan Abeyruwan](https://github.com/dushansachinda)
+- original Author [@Dushan Abeyruwan](https://github.com/dushansachinda)
 
 
 # Accelerate Digital Adoption Through API-led Integration workshop
@@ -76,7 +76,7 @@ docker run -it \
    -p 9443:9443 \
    -p 8243:8243 \
    -p 8280:8280 \
-   wso2am/wso2am:4.0.0-ubuntu
+   wso2am/wso2am:4.0.0
 ```
 
 alternativly, you can run pre-configured APIM image by using following command (for Mac M1 chip)
