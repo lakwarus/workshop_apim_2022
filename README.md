@@ -58,8 +58,7 @@ For Mac M1 chp users may use following command to download pre-build image
  ```
 #### mysql
  ```bash
-   docker run -d -p 8083:3306 mysql:8.0.28
-   docker exec -it [containerid] mysql -uroot -p
+   docker run -d -p 8083:3306 -e MYSQL_ROOT_PASSWORD=pwd mysql:8.0.28
  ```
  password: pwd
 
